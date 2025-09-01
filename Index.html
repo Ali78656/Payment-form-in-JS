@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="Style.css" />
+  </head>
+
+  <body>
+    <div class="d">
+      <div class="w">
+        <div class="e">
+          <!-- Image Section -->
+          <img src="B.png" width="100" height="100" class="i" />
+        </div>
+        <!-- Main Heading -->
+        <h1 class="h">Payment Form</h1>
+      </div>
+      <!-- Sub Heading -->
+      <h2>Contact Information:</h2>
+      <!-- Input Headings -->
+      <p><b> First Name:</b></p>
+      <div class="a">
+        <input
+          type="text"
+          placeholder="i.e John"
+          required
+          class="form-firstName"
+        />
+      </div>
+      <p><b>Last Name:</b></p>
+      <div class="a">
+        <input
+          type="text"
+          placeholder="i.e David"
+          required
+          class="form-lastName"
+        />
+      </div>
+      <p><b>Choose Your Gender:</b></p>
+      <div class="a">
+        <input
+          type="radio"
+          name="Gender"
+          value="Male"
+          class="form-genderMale"
+        />
+        <label>Male</label><br />
+        <input
+          type="radio"
+          name="Gender"
+          value="Female"
+          class="form-genderFemale"
+        />
+        <label>Female</label><br />
+      </div>
+
+      <p><b> Select Your Age:</b></p>
+      <div class="a">
+        <select class="form-age">
+          <option value="child">10-15 Years</option>
+          <option value="Man">15-25 Years</option>
+          <option value="Adult">20-35 Years</option>
+          <option value="Old">30-55 Years</option>
+        </select>
+      </div>
+      <p><b>Address:</b></p>
+      <div class="a">
+        <input
+          type="text"
+          placeholder="i.e Entre Address Here!"
+          required
+          class="form-address"
+        /><br />
+      </div>
+
+      <p><b>Entre Your CNIC Number:</b></p>
+      <div class="a">
+        <input
+          type="number"
+          placeholder="i.e Entre Cnic Number"
+          required
+          class="form-cnic"
+        />
+      </div>
+      <p><b>Phone Number:</b></p>
+      <div class="a">
+        <input
+          type="number"
+          placeholder="i.e Entre Your Phone-Number Here!"
+          required
+          class="form-phoneNumber"
+        />
+      </div>
+      <p><b>Email:</b></p>
+      <div class="a">
+        <input
+          type="email"
+          placeholder="i.e abc@gmail.com"
+          required
+          class="form-email"
+        />
+      </div>
+      <p><b>Pin Code:</b></p>
+      <div class="a">
+        <input
+          type="password"
+          placeholder="i.e Entre Pin Here!"
+          required
+          class="form-pinCode"
+        />
+      </div>
+      <!-- Second Sub Heading -->
+      <h2>Payment Information:</h2>
+      <!-- Input Headings -->
+      <p><strong>Card Type:</strong></p>
+      <div class="a">
+        <select class="form-cardType">
+          <option value="type">Debit Card</option>
+          <option value="type">Credit Crad</option>
+        </select>
+      </div>
+      <p><strong>Card Number:</strong></p>
+      <div class="a">
+        <input
+          type="number"
+          placeholder="i.e Entre Card Number"
+          required
+          class="form-cardNumber"
+        />
+      </div>
+      <p><b>Expiry Date:</b></p>
+      <div class="a">
+        <input type="date" class="form-expiryDate" />
+      </div>
+      <p><b>CVV:</b></p>
+      <div class="a">
+        <input
+          type="password"
+          placeholder="i.e Entre Your Cvv"
+          class="form-cvv"
+        /><br />
+      </div>
+      <!-- Button Section -->
+      <div class="g">
+        <button class="b form-payNowButton">Pay Now</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
