@@ -28,6 +28,7 @@
           required
           class="form-firstName"
         />
+        <span class="error-message form-firstName-error"></span>
       </div>
       <p><b>Last Name:</b></p>
       <div class="a">
@@ -37,6 +38,7 @@
           required
           class="form-lastName"
         />
+        <span class="error-message form-lastName-error"></span>
       </div>
       <p><b>Choose Your Gender:</b></p>
       <div class="a">
@@ -54,6 +56,7 @@
           class="form-genderFemale"
         />
         <label>Female</label><br />
+        <span class="error-message form-gender-error"></span>
       </div>
 
       <p><b> Select Your Age:</b></p>
@@ -64,6 +67,7 @@
           <option value="Adult">20-35 Years</option>
           <option value="Old">30-55 Years</option>
         </select>
+        <span class="error-message form-age-error"></span>
       </div>
       <p><b>Address:</b></p>
       <div class="a">
@@ -73,6 +77,7 @@
           required
           class="form-address"
         /><br />
+        <span class="error-message form-address-error"></span>
       </div>
 
       <p><b>Entre Your CNIC Number:</b></p>
@@ -83,6 +88,7 @@
           required
           class="form-cnic"
         />
+        <span class="error-message form-cnic-error"></span>
       </div>
       <p><b>Phone Number:</b></p>
       <div class="a">
@@ -92,6 +98,7 @@
           required
           class="form-phoneNumber"
         />
+        <span class="error-message form-phoneNumber-error"></span>
       </div>
       <p><b>Email:</b></p>
       <div class="a">
@@ -101,6 +108,7 @@
           required
           class="form-email"
         />
+        <span class="error-message form-email-error"></span>
       </div>
       <p><b>Pin Code:</b></p>
       <div class="a">
@@ -110,6 +118,7 @@
           required
           class="form-pinCode"
         />
+        <span class="error-message form-pinCode-error"></span>
       </div>
       <!-- Second Sub Heading -->
       <h2>Payment Information:</h2>
@@ -120,6 +129,7 @@
           <option value="type">Debit Card</option>
           <option value="type">Credit Crad</option>
         </select>
+        <span class="error-message form-cardType-error"></span>
       </div>
       <p><strong>Card Number:</strong></p>
       <div class="a">
@@ -129,10 +139,12 @@
           required
           class="form-cardNumber"
         />
+        <span class="error-message form-cardNumber-error"></span>
       </div>
       <p><b>Expiry Date:</b></p>
       <div class="a">
         <input type="date" class="form-expiryDate" />
+        <span class="error-message form-expiryDate-error"></span>
       </div>
       <p><b>CVV:</b></p>
       <div class="a">
@@ -141,6 +153,7 @@
           placeholder="i.e Entre Your Cvv"
           class="form-cvv"
         /><br />
+        <span class="error-message form-cvv-error"></span>
       </div>
       <!-- Button Section -->
       <div class="g">
